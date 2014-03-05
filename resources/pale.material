@@ -1,0 +1,15 @@
+material pale
+{
+   receive_shadows off
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         lighting on
+         ambient 0 0 0 0
+         diffuse 0 0 0 0.24
+         emissive 0.4 0.6 1 1
+      }
+   }
+}

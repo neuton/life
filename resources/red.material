@@ -1,0 +1,14 @@
+material red
+{
+   receive_shadows off
+   technique
+   {
+      pass
+      {
+         lighting on
+         ambient 0 0 0 0
+         diffuse 0 0 0 0
+		 emissive 1 0 0 1
+      }
+   }
+}
